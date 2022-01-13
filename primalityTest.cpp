@@ -16,8 +16,11 @@ bool prime(int n){
 }
 
 int main(){
-    int n=7;
-    if(prime(n)==true)cout<<"Prime"<<endl;
-    else cout<<"Not prime";
+    int n;
+    while (cin>>n)
+    {
+        if(prime(n)==true)cout<<"Prime"<<endl;
+        else cout<<"Not prime"<<endl;
+    }
     return 0;
 }
